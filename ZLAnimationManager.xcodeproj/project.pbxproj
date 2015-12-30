@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0475E4821C3365AF0049E585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4811C3365AF0049E585 /* main.m */; };
+		0475E4851C3365AF0049E585 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4841C3365AF0049E585 /* AppDelegate.m */; };
+		0475E4881C3365AF0049E585 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4871C3365AF0049E585 /* ViewController.m */; };
+		0475E48B1C3365AF0049E585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475E4891C3365AF0049E585 /* Main.storyboard */; };
+		0475E48D1C3365AF0049E585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0475E48C1C3365AF0049E585 /* Assets.xcassets */; };
+		0475E4901C3365AF0049E585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475E48E1C3365AF0049E585 /* LaunchScreen.storyboard */; };
+		0475E49B1C3365AF0049E585 /* ZLAnimationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E49A1C3365AF0049E585 /* ZLAnimationManagerTests.m */; };
+		0475E4A61C3365AF0049E585 /* ZLAnimationManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4A51C3365AF0049E585 /* ZLAnimationManagerUITests.m */; };
+		0475E4B61C33662D0049E585 /* AnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4B51C33662D0049E585 /* AnimationManager.m */; };
+		0475E4B91C3366B10049E585 /* BaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4B81C3366B10049E585 /* BaseAnimation.m */; };
+		0475E4C31C33679F0049E585 /* SSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4BE1C33679F0049E585 /* SSAction.m */; };
+		0475E4C41C33679F0049E585 /* SSActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4C01C33679F0049E585 /* SSActionManager.m */; };
+		0475E4C51C33679F0049E585 /* UIView+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4C21C33679F0049E585 /* UIView+Action.m */; };
+		0475E4C91C3368180049E585 /* ZLUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475E4C81C3368180049E585 /* ZLUIImage.m */; };
+		0475E4CB1C33778D0049E585 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0475E4CA1C33778D0049E585 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0475E4971C3365AF0049E585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0475E4751C3365AF0049E585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0475E47C1C3365AF0049E585;
+			remoteInfo = ZLAnimationManager;
+		};
+		0475E4A21C3365AF0049E585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0475E4751C3365AF0049E585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0475E47C1C3365AF0049E585;
+			remoteInfo = ZLAnimationManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0475E47D1C3365AF0049E585 /* ZLAnimationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLAnimationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475E4811C3365AF0049E585 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0475E4831C3365AF0049E585 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0475E4841C3365AF0049E585 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0475E4861C3365AF0049E585 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0475E4871C3365AF0049E585 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0475E48A1C3365AF0049E585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0475E48C1C3365AF0049E585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0475E48F1C3365AF0049E585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0475E4911C3365AF0049E585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475E4961C3365AF0049E585 /* ZLAnimationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLAnimationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475E49A1C3365AF0049E585 /* ZLAnimationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAnimationManagerTests.m; sourceTree = "<group>"; };
+		0475E49C1C3365AF0049E585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475E4A11C3365AF0049E585 /* ZLAnimationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLAnimationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0475E4A51C3365AF0049E585 /* ZLAnimationManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAnimationManagerUITests.m; sourceTree = "<group>"; };
+		0475E4A71C3365AF0049E585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475E4B41C33662D0049E585 /* AnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationManager.h; path = AnimationManager/AnimationManager.h; sourceTree = "<group>"; };
+		0475E4B51C33662D0049E585 /* AnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationManager.m; path = AnimationManager/AnimationManager.m; sourceTree = "<group>"; };
+		0475E4B71C3366B10049E585 /* BaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseAnimation.h; path = AnimationManager/BaseAnimation.h; sourceTree = "<group>"; };
+		0475E4B81C3366B10049E585 /* BaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseAnimation.m; path = AnimationManager/BaseAnimation.m; sourceTree = "<group>"; };
+		0475E4BD1C33679F0049E585 /* SSAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAction.h; sourceTree = "<group>"; };
+		0475E4BE1C33679F0049E585 /* SSAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAction.m; sourceTree = "<group>"; };
+		0475E4BF1C33679F0049E585 /* SSActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSActionManager.h; sourceTree = "<group>"; };
+		0475E4C01C33679F0049E585 /* SSActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSActionManager.m; sourceTree = "<group>"; };
+		0475E4C11C33679F0049E585 /* UIView+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Action.h"; sourceTree = "<group>"; };
+		0475E4C21C33679F0049E585 /* UIView+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Action.m"; sourceTree = "<group>"; };
+		0475E4C71C3368180049E585 /* ZLUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLUIImage.h; sourceTree = "<group>"; };
+		0475E4C81C3368180049E585 /* ZLUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLUIImage.m; sourceTree = "<group>"; };
+		0475E4CA1C33778D0049E585 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0475E47A1C3365AF0049E585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475E4CB1C33778D0049E585 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475E4931C3365AF0049E585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475E49E1C3365AF0049E585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0475E4741C3365AF0049E585 = {
+			isa = PBXGroup;
+			children = (
+				0475E4CA1C33778D0049E585 /* CoreGraphics.framework */,
+				0475E47F1C3365AF0049E585 /* ZLAnimationManager */,
+				0475E4991C3365AF0049E585 /* ZLAnimationManagerTests */,
+				0475E4A41C3365AF0049E585 /* ZLAnimationManagerUITests */,
+				0475E47E1C3365AF0049E585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0475E47E1C3365AF0049E585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0475E47D1C3365AF0049E585 /* ZLAnimationManager.app */,
+				0475E4961C3365AF0049E585 /* ZLAnimationManagerTests.xctest */,
+				0475E4A11C3365AF0049E585 /* ZLAnimationManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0475E47F1C3365AF0049E585 /* ZLAnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				0475E4C61C3368180049E585 /* ZLUiImage */,
+				0475E4BC1C33679F0049E585 /* SSAction */,
+				0475E4B31C3366000049E585 /* AnimationManager */,
+				0475E4831C3365AF0049E585 /* AppDelegate.h */,
+				0475E4841C3365AF0049E585 /* AppDelegate.m */,
+				0475E4861C3365AF0049E585 /* ViewController.h */,
+				0475E4871C3365AF0049E585 /* ViewController.m */,
+				0475E4891C3365AF0049E585 /* Main.storyboard */,
+				0475E48C1C3365AF0049E585 /* Assets.xcassets */,
+				0475E48E1C3365AF0049E585 /* LaunchScreen.storyboard */,
+				0475E4911C3365AF0049E585 /* Info.plist */,
+				0475E4801C3365AF0049E585 /* Supporting Files */,
+			);
+			path = ZLAnimationManager;
+			sourceTree = "<group>";
+		};
+		0475E4801C3365AF0049E585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0475E4811C3365AF0049E585 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0475E4991C3365AF0049E585 /* ZLAnimationManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0475E49A1C3365AF0049E585 /* ZLAnimationManagerTests.m */,
+				0475E49C1C3365AF0049E585 /* Info.plist */,
+			);
+			path = ZLAnimationManagerTests;
+			sourceTree = "<group>";
+		};
+		0475E4A41C3365AF0049E585 /* ZLAnimationManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0475E4A51C3365AF0049E585 /* ZLAnimationManagerUITests.m */,
+				0475E4A71C3365AF0049E585 /* Info.plist */,
+			);
+			path = ZLAnimationManagerUITests;
+			sourceTree = "<group>";
+		};
+		0475E4B31C3366000049E585 /* AnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				0475E4B71C3366B10049E585 /* BaseAnimation.h */,
+				0475E4B81C3366B10049E585 /* BaseAnimation.m */,
+				0475E4B41C33662D0049E585 /* AnimationManager.h */,
+				0475E4B51C33662D0049E585 /* AnimationManager.m */,
+			);
+			name = AnimationManager;
+			sourceTree = "<group>";
+		};
+		0475E4BC1C33679F0049E585 /* SSAction */ = {
+			isa = PBXGroup;
+			children = (
+				0475E4BD1C33679F0049E585 /* SSAction.h */,
+				0475E4BE1C33679F0049E585 /* SSAction.m */,
+				0475E4BF1C33679F0049E585 /* SSActionManager.h */,
+				0475E4C01C33679F0049E585 /* SSActionManager.m */,
+				0475E4C11C33679F0049E585 /* UIView+Action.h */,
+				0475E4C21C33679F0049E585 /* UIView+Action.m */,
+			);
+			path = SSAction;
+			sourceTree = "<group>";
+		};
+		0475E4C61C3368180049E585 /* ZLUiImage */ = {
+			isa = PBXGroup;
+			children = (
+				0475E4C71C3368180049E585 /* ZLUIImage.h */,
+				0475E4C81C3368180049E585 /* ZLUIImage.m */,
+			);
+			path = ZLUiImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0475E47C1C3365AF0049E585 /* ZLAnimationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0475E4AA1C3365AF0049E585 /* Build configuration list for PBXNativeTarget "ZLAnimationManager" */;
+			buildPhases = (
+				0475E4791C3365AF0049E585 /* Sources */,
+				0475E47A1C3365AF0049E585 /* Frameworks */,
+				0475E47B1C3365AF0049E585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLAnimationManager;
+			productName = ZLAnimationManager;
+			productReference = 0475E47D1C3365AF0049E585 /* ZLAnimationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0475E4951C3365AF0049E585 /* ZLAnimationManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0475E4AD1C3365AF0049E585 /* Build configuration list for PBXNativeTarget "ZLAnimationManagerTests" */;
+			buildPhases = (
+				0475E4921C3365AF0049E585 /* Sources */,
+				0475E4931C3365AF0049E585 /* Frameworks */,
+				0475E4941C3365AF0049E585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0475E4981C3365AF0049E585 /* PBXTargetDependency */,
+			);
+			name = ZLAnimationManagerTests;
+			productName = ZLAnimationManagerTests;
+			productReference = 0475E4961C3365AF0049E585 /* ZLAnimationManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0475E4A01C3365AF0049E585 /* ZLAnimationManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0475E4B01C3365AF0049E585 /* Build configuration list for PBXNativeTarget "ZLAnimationManagerUITests" */;
+			buildPhases = (
+				0475E49D1C3365AF0049E585 /* Sources */,
+				0475E49E1C3365AF0049E585 /* Frameworks */,
+				0475E49F1C3365AF0049E585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0475E4A31C3365AF0049E585 /* PBXTargetDependency */,
+			);
+			name = ZLAnimationManagerUITests;
+			productName = ZLAnimationManagerUITests;
+			productReference = 0475E4A11C3365AF0049E585 /* ZLAnimationManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0475E4751C3365AF0049E585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhanglei;
+				TargetAttributes = {
+					0475E47C1C3365AF0049E585 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0475E4951C3365AF0049E585 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0475E47C1C3365AF0049E585;
+					};
+					0475E4A01C3365AF0049E585 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0475E47C1C3365AF0049E585;
+					};
+				};
+			};
+			buildConfigurationList = 0475E4781C3365AF0049E585 /* Build configuration list for PBXProject "ZLAnimationManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0475E4741C3365AF0049E585;
+			productRefGroup = 0475E47E1C3365AF0049E585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0475E47C1C3365AF0049E585 /* ZLAnimationManager */,
+				0475E4951C3365AF0049E585 /* ZLAnimationManagerTests */,
+				0475E4A01C3365AF0049E585 /* ZLAnimationManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0475E47B1C3365AF0049E585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475E4901C3365AF0049E585 /* LaunchScreen.storyboard in Resources */,
+				0475E48D1C3365AF0049E585 /* Assets.xcassets in Resources */,
+				0475E48B1C3365AF0049E585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475E4941C3365AF0049E585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475E49F1C3365AF0049E585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0475E4791C3365AF0049E585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475E4B61C33662D0049E585 /* AnimationManager.m in Sources */,
+				0475E4C91C3368180049E585 /* ZLUIImage.m in Sources */,
+				0475E4881C3365AF0049E585 /* ViewController.m in Sources */,
+				0475E4851C3365AF0049E585 /* AppDelegate.m in Sources */,
+				0475E4821C3365AF0049E585 /* main.m in Sources */,
+				0475E4C51C33679F0049E585 /* UIView+Action.m in Sources */,
+				0475E4B91C3366B10049E585 /* BaseAnimation.m in Sources */,
+				0475E4C31C33679F0049E585 /* SSAction.m in Sources */,
+				0475E4C41C33679F0049E585 /* SSActionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475E4921C3365AF0049E585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475E49B1C3365AF0049E585 /* ZLAnimationManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0475E49D1C3365AF0049E585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475E4A61C3365AF0049E585 /* ZLAnimationManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0475E4981C3365AF0049E585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0475E47C1C3365AF0049E585 /* ZLAnimationManager */;
+			targetProxy = 0475E4971C3365AF0049E585 /* PBXContainerItemProxy */;
+		};
+		0475E4A31C3365AF0049E585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0475E47C1C3365AF0049E585 /* ZLAnimationManager */;
+			targetProxy = 0475E4A21C3365AF0049E585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0475E4891C3365AF0049E585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0475E48A1C3365AF0049E585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0475E48E1C3365AF0049E585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0475E48F1C3365AF0049E585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0475E4A81C3365AF0049E585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0475E4A91C3365AF0049E585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0475E4AB1C3365AF0049E585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLAnimationManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglei.ZLAnimationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0475E4AC1C3365AF0049E585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLAnimationManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglei.ZLAnimationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0475E4AE1C3365AF0049E585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZLAnimationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglei.ZLAnimationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLAnimationManager.app/ZLAnimationManager";
+			};
+			name = Debug;
+		};
+		0475E4AF1C3365AF0049E585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZLAnimationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglei.ZLAnimationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLAnimationManager.app/ZLAnimationManager";
+			};
+			name = Release;
+		};
+		0475E4B11C3365AF0049E585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZLAnimationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglei.ZLAnimationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLAnimationManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0475E4B21C3365AF0049E585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZLAnimationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanglei.ZLAnimationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLAnimationManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0475E4781C3365AF0049E585 /* Build configuration list for PBXProject "ZLAnimationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475E4A81C3365AF0049E585 /* Debug */,
+				0475E4A91C3365AF0049E585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0475E4AA1C3365AF0049E585 /* Build configuration list for PBXNativeTarget "ZLAnimationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475E4AB1C3365AF0049E585 /* Debug */,
+				0475E4AC1C3365AF0049E585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0475E4AD1C3365AF0049E585 /* Build configuration list for PBXNativeTarget "ZLAnimationManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475E4AE1C3365AF0049E585 /* Debug */,
+				0475E4AF1C3365AF0049E585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0475E4B01C3365AF0049E585 /* Build configuration list for PBXNativeTarget "ZLAnimationManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0475E4B11C3365AF0049E585 /* Debug */,
+				0475E4B21C3365AF0049E585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0475E4751C3365AF0049E585 /* Project object */;
+}
